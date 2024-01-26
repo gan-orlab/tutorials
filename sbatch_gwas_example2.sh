@@ -1,9 +1,5 @@
 #!/bin/bash
-#SBATCH --time=0-6:00
-#SBATCH --account=def-grouleau
-#SBATCH --output=GWAS_ABCD_main_smri_vol_scs_wholeb.out
-#SBATCH --mem=80g
-#SBATCH --cpus-per-task=20
+
 module load StdEnv/2020 plink/2.00-10252019-avx2
 #regular GWAS covariate
 file=/home/liulang/scratch/genotype/ABCD/imputed/soft_calls/GWAS_QC/ABCD_all.QC
